@@ -25,8 +25,13 @@ public class Student {
         return studyYear;
     }
 
-    public int incrementYear() {
-        return getStudyYear() + 1;
+    public int incrementYear(int studyYear) {
+        if (studyYear < 4) {
+            return studyYear++;
+        } else if (studyYear == 4) {
+            return studyYear;
+        } else
+            return -1;
     }
 
     @Override

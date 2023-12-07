@@ -1,5 +1,7 @@
 package com.company.temp;
 
+
+
 public class Temperature {
     private double tempValue;
     private char tempParameter;
